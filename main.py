@@ -1,5 +1,5 @@
 import time
-from machine import Pin
+from machine import Pin  #control GPIOs of micro controler
 
 def main():
     led_buz = Pin(2, Pin.OUT)
