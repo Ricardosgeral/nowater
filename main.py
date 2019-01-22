@@ -5,7 +5,7 @@ import RGBled
 def main():
     buz = Pin(4, Pin.OUT)                           # buzzer
     water_detector = Pin(27,Pin.IN,Pin.PULL_UP)     # output from non-contact water sensor
-    pullup = Pin(12,Pin.OUT)                        # to detect if the non-contact water sensor is working
+    pull_up = Pin(12,Pin.OUT)                        # to detect if the non-contact water sensor is working
 
     #turn off all leds and buzzer
     buz.value(0)
@@ -21,8 +21,8 @@ def main():
         time.sleep(0.3)
 
     while True:
-        if  pullup.value()==1:                  #the water sensor is not connected or is broken!  Yellow alert
-            while pullup.value()==1:
+        if pull_up.value()==1:                  #the water sensor is not connected or is broken!  Yellow alert
+            while pull_up.value()==1:
                 RGBled.greenOff()
                 RGBled.yellowOn()
                 time.sleep(0.5)
