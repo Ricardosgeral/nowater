@@ -16,7 +16,7 @@ Automatic system to alert (with a buzzer and a LED) when the water level in a ta
 | 1       | 1        | 1        |![](Media/BOM/prototypePCB.JPG)   |[4x6cm Double Side Copper Prototype PCB](https://www.aliexpress.com/item/20PCS-LOT-5x7-4x6-3x7-2x8-CM-Double-Side-Copper-Prototype-PCB-Universal-Board-Experimental-Development/32828136874.html)    | PCB to attach all components                 |
 | 1       | 1        | 1        |![](Media/BOM/15Pfemale.JPG)      |[Stright Female Single Row Pin Header Strip 15P 2.54mm](https://www.aliexpress.com/item/Pitch-2-54mm-2-3-4-5-6-7-8-9-10-11-12-13-14/32859544578.html)                                                | Connect ESP-32 to the PCB without soldering  |
 
-
+ 
 
 
 ### Fritzing
