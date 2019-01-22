@@ -5,8 +5,8 @@
 
 from machine import Pin  #control GPIOs of micro controler
 redPin = 34    # GPIO34
-greenPin = 35  # GPIO35
-bluePin = 32   # GPIO32
+greenPin = 32  # GPIO35
+bluePin = 35   # GPIO32
 
 
 def blink(pin):
