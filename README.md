@@ -6,12 +6,10 @@ Automatic system to alert (with a buzzer and a LED) when the water level in a ta
 
 | **Qt**  | **€/un*** | **Ʃ €** | **Photo**                                   | **Description**                                                                                                                                                                                                        | Notes                                                                               |
 |---------|----------|----------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| 1       | 7       | 7       |![](Media/images/sensors/RPi.PNG)            |[Raspberry pi 3B](https://www.raspberrypi.org/products/#buy-now-modal)                                                                                                                                                  | Server                                                                              |
-| 1       | 16.2     | 16.2     |![](Media/images/sensors/nextion.PNG)        |[Nextion HMI touch display 2.8"](https://www.itead.cc/nextion-nx3224t028-1933.html)                                                                                                                                     | Graphical User Interface (GUI)                                                      |
-|
+| 1       | 7       | 7       |![](Media/BOM/ESP-32 dev.jpeg)            |[ESP-32 WROOM dev board](https://www.aliexpress.com/item/ESP32-ESP-32-ESP32S-ESP-32S-CP2102-Wireless-WiFi-Bluetooth-Development-Board-Micro-USB-Dual-Core/32867696371.html)                                       | Microcontroler                                                                            |
+| 1       | 5     | 5     |![](Media/BOM/XKC-Y25-NPN.jpg)        |[XKC-Y25-NPN](https://www.aliexpress.com/item/XKC-Y25-NPN-Water-Level-Sensor-Non-Contact-Liquid-Level-Sensor-Detection-Tools-for-Airtight-Container/32864811235.html)                                                                                                                                     | Non-Contact Liquid Level Sensor                                                      |
+| 1       | 0.1      | 0.1      |![](Media/images/sensors/buzzer.PNG)         |► [Active Buzzer Alarm 5 V](https://www.aliexpress.com/item/10pcs-5v-Active-Buzzer-Magnetic-Long-Continous-Beep-Tone-Alarm-Ringer-12mm-MINI-Active-Piezo-Buzzers/32914327679.html)                                     | Audible sound to alert for the end of a test                                         |
 
-XKC-Y25-NPN Non-Contact Liquid Level Sensor
-ESP-32 WROOM development board 
 
 
 ## Software  
