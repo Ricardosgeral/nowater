@@ -4,18 +4,18 @@
 
 
 from machine import Pin  #control GPIOs of micro controler
-redPin = 34    # GPIO34
-greenPin = 32  # GPIO35
-bluePin = 35   # GPIO32
+redPin = 5    # GPIO34
+greenPin = 18  # GPIO35
+bluePin = 19   # GPIO32
 
 
 def blink(pin):
-    led = Pin(pin, Pin.OUT)
-    led.value(1)
+    on = Pin(pin, Pin.OUT)
+    on.value(1)
 
 def turnOff(pin):
-    led = Pin(pin, Pin.OUT)
-    led.value(0)
+    off = Pin(pin, Pin.OUT)
+    off.value(0)
 
 def redOn():
     blink(redPin)
